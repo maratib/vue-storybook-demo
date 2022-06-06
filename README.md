@@ -1,10 +1,13 @@
 # Vue3, Storybook, TailwindCSS, Vite, TypeScript
 
-## Vue3 Storybook starter
+## Vue3 Storybook demo
 
 ## Setup
 
 ```bash
+# Clone starter
+git clone git@github.com:maratib/vue-ts-storybook-tailwindcss-vite.git
+
 yarn
 yarn storybook
 
