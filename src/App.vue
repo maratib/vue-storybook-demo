@@ -1,18 +1,7 @@
 <script setup lang="ts">
-import { computed } from "vue";
-import { useRoute } from "vue-router";
-
-const default_layout = "default";
-
-const layout = computed(
-  () => (useRoute().meta.layout || default_layout) + "-layout"
-);
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div id="app">
-    <component :is="layout">
-      <router-view />
-    </component>
-  </div>
+  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
 </template>
