@@ -5,7 +5,7 @@
 ## Setup
 
 ```bash
-Clone
+# Clone
 git clone git@github.com:maratib/vue-ts-storybook-tailwindcss-vite.git
 
 yarn
